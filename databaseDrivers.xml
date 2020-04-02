@@ -25,6 +25,13 @@
       <artifact name="SQL Server" use="true" />
       <option name="auto-sync" value="true" />
       <option name="send-app-info" value="false" />
+      <option name="auto-commit" value="true" />
+      <option name="format-sources-on-sync" value="true" />
+      <option name="source-loading" value="USER_SOURCES" />
+      <option name="schema-control" value="AUTOMATIC" />
+      <library>
+        <url>file://$MAVEN_REPOSITORY$/com/microsoft/sqlserver/sqljdbc4/4.0/sqljdbc4-4.0.jar</url>
+      </library>
     </driver>
     <driver id="sqlserver.jtds">
       <artifact name="jTDS (SQL Server and Sybase)" use="true" />
