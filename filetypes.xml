@@ -6,6 +6,7 @@
       <mapping pattern="*.js.flow" type="Flow" />
       <mapping pattern="SetOrgForm" type="JavaScript" />
       <mapping ext="gradle.kts" type="Kotlin" />
+      <mapping ext="lck" type="PLAIN_TEXT" />
       <mapping ext="brt" type="PLAIN_TEXT" />
       <mapping ext="license" type="PLAIN_TEXT" />
       <removed_mapping ext="cmd" approved="true" type="PLAIN_TEXT" />
